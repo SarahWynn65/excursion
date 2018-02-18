@@ -1,0 +1,21 @@
+/* Style sheet for Excursion app. by Sarah Wynn 2018/02 */
+
+
+/*
+background-size: cover;
+background-color: black;
+*/
+
+h1 {
+  font-family: Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+
+#download_link {
+  color: Aquamarine;
+  font-size: 16px;
+  text-align: center; /*for some reason this isn't working */
+}
