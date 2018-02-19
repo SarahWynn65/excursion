@@ -8,8 +8,13 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* This is important so the image resizes with the browser window. */
+  height: auto;   /* This is important to retain the original image ratios. */
+}
+
+video {
+  width: 30%; /* This is important so the video image resizes with the browser window. */
+  height: auto; /* This is important to retain the original video image ratios. */
 }
 
 h1 {
